@@ -1,0 +1,2 @@
+Breusch-Pagan LM=580.9555, p-value=1.53e-112
+Evidence of heteroskedasticity; see robust (HC3) summary.

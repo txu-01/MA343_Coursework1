@@ -1,0 +1,2 @@
+Skew(potential) = 73.6814
+Interpretation: Right-skewed

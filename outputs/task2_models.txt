@@ -1,0 +1,55 @@
+Model A: value_eur ~ overall
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              value_eur   R-squared:                       0.416
+Model:                            OLS   Adj. R-squared:                  0.416
+Method:                 Least Squares   F-statistic:                     4982.
+Date:                Mon, 03 Nov 2025   Prob (F-statistic):               0.00
+Time:                        04:50:45   Log-Likelihood:            -1.2123e+05
+No. Observations:                7005   AIC:                         2.425e+05
+Df Residuals:                    7003   BIC:                         2.425e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    -7.4e+07   1.11e+06    -66.415      0.000   -7.62e+07   -7.18e+07
+overall     1.138e+06   1.61e+04     70.580      0.000    1.11e+06    1.17e+06
+==============================================================================
+Omnibus:                     8289.964   Durbin-Watson:                   0.294
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1435712.401
+Skew:                           6.123   Prob(JB):                         0.00
+Kurtosis:                      72.058   Cond. No.                         811.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model B: value_eur ~ potential
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              value_eur   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     1.586
+Date:                Mon, 03 Nov 2025   Prob (F-statistic):              0.208
+Time:                        04:50:45   Log-Likelihood:            -1.2311e+05
+No. Observations:                7005   AIC:                         2.462e+05
+Df Residuals:                    7003   BIC:                         2.462e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    4.36e+06   1.24e+05     35.116      0.000    4.12e+06     4.6e+06
+potential     -0.1202      0.095     -1.259      0.208      -0.307       0.067
+==============================================================================
+Omnibus:                     8324.276   Durbin-Watson:                   0.160
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1013372.380
+Skew:                           6.339   Prob(JB):                         0.00
+Kurtosis:                      60.543   Cond. No.                     1.30e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.3e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

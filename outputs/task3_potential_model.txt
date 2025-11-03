@@ -1,0 +1,34 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              potential   R-squared:                       0.533
+Model:                            OLS   Adj. R-squared:                  0.532
+Method:                 Least Squares   F-statistic:                     972.7
+Date:                Mon, 03 Nov 2025   Prob (F-statistic):               0.00
+Time:                        04:50:46   Log-Likelihood:                -19378.
+No. Observations:                6827   AIC:                         3.877e+04
+Df Residuals:                    6818   BIC:                         3.884e+04
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     30.5522      2.072     14.746      0.000      26.491      34.614
+age           -0.7033      0.014    -51.141      0.000      -0.730      -0.676
+height_cm      0.1017      0.013      8.113      0.000       0.077       0.126
+weight_kg      0.0488      0.012      3.954      0.000       0.025       0.073
+pace           0.0618      0.006     11.236      0.000       0.051       0.073
+shooting       0.0777      0.007     10.732      0.000       0.064       0.092
+passing        0.2936      0.010     29.882      0.000       0.274       0.313
+defending      0.0872      0.006     15.399      0.000       0.076       0.098
+physic         0.1059      0.009     11.803      0.000       0.088       0.124
+==============================================================================
+Omnibus:                       65.566   Durbin-Watson:                   1.235
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               67.341
+Skew:                           0.243   Prob(JB):                     2.38e-15
+Kurtosis:                       2.968   Cond. No.                     9.97e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.97e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

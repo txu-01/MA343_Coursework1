@@ -1,0 +1,4 @@
+Task 4(1) — Does preferred_foot predict overall?
+- We compared mean overall between dominant-foot groups using a regression with a categorical predictor.
+- Check the ANOVA CSV for whether footedness has a statistically detectable effect on overall.
+- Group means are in task4_overall_by_preferred_foot_group_stats.csv for practical interpretation.

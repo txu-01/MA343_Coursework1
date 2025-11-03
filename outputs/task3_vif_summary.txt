@@ -1,0 +1,3 @@
+VIF loop (threshold=5)
+overall kept=['age', 'height_cm', 'weight_kg', 'pace', 'shooting', 'passing', 'defending', 'physic'], removed=['dribbling']
+potential kept=['age', 'height_cm', 'weight_kg', 'pace', 'shooting', 'passing', 'defending', 'physic'], removed=['dribbling']

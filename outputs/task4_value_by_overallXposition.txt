@@ -1,0 +1,41 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              value_eur   R-squared:                       0.427
+Model:                            OLS   Adj. R-squared:                  0.426
+Method:                 Least Squares   F-statistic:                     306.6
+Date:                Mon, 03 Nov 2025   Prob (F-statistic):               0.00
+Time:                        04:50:48   Log-Likelihood:            -1.2116e+05
+No. Observations:                7005   AIC:                         2.424e+05
+Df Residuals:                    6987   BIC:                         2.425e+05
+Df Model:                          17                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================================
+                                          coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------
+Intercept                            4.391e+06   3.53e+05     12.453      0.000     3.7e+06    5.08e+06
+C(club_position)[T.LCB]             -7.236e+05   4.64e+05     -1.560      0.119   -1.63e+06    1.86e+05
+C(club_position)[T.LCM]               7.23e+04   5.12e+05      0.141      0.888   -9.32e+05    1.08e+06
+C(club_position)[T.Other]           -3.703e+04   3.82e+05     -0.097      0.923   -7.86e+05    7.12e+05
+C(club_position)[T.RB]              -3.464e+05   4.97e+05     -0.697      0.486   -1.32e+06    6.28e+05
+C(club_position)[T.RCB]             -3.563e+05   4.64e+05     -0.767      0.443   -1.27e+06    5.54e+05
+C(club_position)[T.RCM]              5.771e+05   5.12e+05      1.127      0.260   -4.27e+05    1.58e+06
+C(club_position)[T.RM]               1.114e+05   5.28e+05      0.211      0.833   -9.23e+05    1.15e+06
+C(club_position)[T.ST]               2.603e+05   5.08e+05      0.512      0.609   -7.36e+05    1.26e+06
+overall_c                            1.004e+06   5.88e+04     17.077      0.000    8.89e+05    1.12e+06
+overall_c:C(club_position)[T.LCB]   -1.074e+05   8.01e+04     -1.341      0.180   -2.64e+05    4.95e+04
+overall_c:C(club_position)[T.LCM]    9.638e+04    8.6e+04      1.121      0.262   -7.21e+04    2.65e+05
+overall_c:C(club_position)[T.Other]  1.691e+05   6.38e+04      2.650      0.008     4.4e+04    2.94e+05
+overall_c:C(club_position)[T.RB]    -1.475e+05   8.33e+04     -1.769      0.077   -3.11e+05    1.59e+04
+overall_c:C(club_position)[T.RCB]    5.607e+04      8e+04      0.701      0.483   -1.01e+05    2.13e+05
+overall_c:C(club_position)[T.RCM]    3.755e+05   8.72e+04      4.308      0.000    2.05e+05    5.46e+05
+overall_c:C(club_position)[T.RM]     4.335e+04   8.92e+04      0.486      0.627   -1.31e+05    2.18e+05
+overall_c:C(club_position)[T.ST]      5.89e+05   8.25e+04      7.142      0.000    4.27e+05    7.51e+05
+==============================================================================
+Omnibus:                     8031.913   Durbin-Watson:                   0.319
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          1171932.818
+Skew:                           5.843   Prob(JB):                         0.00
+Kurtosis:                      65.279   Cond. No.                         77.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

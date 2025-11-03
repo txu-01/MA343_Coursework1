@@ -1,0 +1,46 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                overall   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     1.745
+Date:                Mon, 03 Nov 2025   Prob (F-statistic):             0.0168
+Time:                        04:50:47   Log-Likelihood:                -22332.
+No. Observations:                7005   AIC:                         4.471e+04
+Df Residuals:                    6982   BIC:                         4.487e+04
+Df Model:                          22                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+Intercept                     74.8000      2.627     28.470      0.000      69.650      79.950
+C(preferred_foot)[T.CB]       -4.0000      3.218     -1.243      0.214     -10.308       2.308
+C(preferred_foot)[T.CDM]      -3.3000      3.941     -0.837      0.402     -11.025       4.425
+C(preferred_foot)[T.LB]       -8.6000      3.034     -2.835      0.005     -14.547      -2.653
+C(preferred_foot)[T.LCB]      -7.6667      3.034     -2.527      0.012     -13.614      -1.720
+C(preferred_foot)[T.LCM]      -9.1000      2.937     -3.098      0.002     -14.858      -3.342
+C(preferred_foot)[T.LDM]      -9.8000      4.915     -1.994      0.046     -19.435      -0.165
+C(preferred_foot)[T.LM]       -6.9538      3.092     -2.249      0.025     -13.014      -0.894
+C(preferred_foot)[T.LS]       -6.0000      3.716     -1.615      0.106     -13.284       1.284
+C(preferred_foot)[T.LW]       -4.3000      3.557     -1.209      0.227     -11.274       2.674
+C(preferred_foot)[T.LWB]      -8.6333      3.557     -2.427      0.015     -15.607      -1.660
+C(preferred_foot)[T.Left]     -5.8927      2.631     -2.240      0.025     -11.050      -0.735
+C(preferred_foot)[T.RB]       -7.3714      3.440     -2.143      0.032     -14.115      -0.628
+C(preferred_foot)[T.RCB]      -9.6261      2.899     -3.321      0.001     -15.309      -3.944
+C(preferred_foot)[T.RCM]      -7.1500      2.937     -2.434      0.015     -12.908      -1.392
+C(preferred_foot)[T.RDM]      -6.0500      3.941     -1.535      0.125     -13.775       1.675
+C(preferred_foot)[T.RF]       -8.8000      6.436     -1.367      0.172     -21.416       3.816
+C(preferred_foot)[T.RM]       -6.1750      3.349     -1.844      0.065     -12.740       0.390
+C(preferred_foot)[T.RS]       -3.1333      4.290     -0.730      0.465     -11.544       5.277
+C(preferred_foot)[T.RW]       -8.8000      4.290     -2.051      0.040     -17.210      -0.390
+C(preferred_foot)[T.RWB]     -14.4667      4.290     -3.372      0.001     -22.877      -6.056
+C(preferred_foot)[T.Right]    -5.9562      2.629     -2.266      0.023     -11.109      -0.803
+C(preferred_foot)[T.ST]       -6.6000      3.716     -1.776      0.076     -13.884       0.684
+==============================================================================
+Omnibus:                      205.073   Durbin-Watson:                   0.029
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              230.128
+Skew:                           0.399   Prob(JB):                     1.07e-50
+Kurtosis:                       3.389   Cond. No.                         234.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

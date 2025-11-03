@@ -1,0 +1,5 @@
+Task 4(2) — Do position groups change the relationship between rating and market value?
+- We fit an interaction model: value_eur ~ centered overall * club_position (top 8 positions + Other).
+- If interaction terms are significant, it means the effect (slope) of overall on value varies by position.
+- Check '..._HC3.txt' for robust standard errors in case of heteroskedasticity.
+- File 'task4_interaction_slope_by_position.csv' lists the estimated slope for each position group.

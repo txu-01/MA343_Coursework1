@@ -1,0 +1,2 @@
+Threshold = 0.000571
+Influential points: 189
